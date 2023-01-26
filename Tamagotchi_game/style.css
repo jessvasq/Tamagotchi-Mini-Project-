@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+body {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    background-color: #dbf3ff; 
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 500;
+    font-size: 70px;
+    color: black;
+    text-shadow: 2px 2px 2px white;
+    text-align: center;
+    padding: 10px 20px 0px;
+    margin: 20px 5px 0px;
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 500;
+    font-size: 45px;
+    color: orange;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    padding: 0px 20px 15px;
+    margin: 5px 5px 0px;
+}
+
+h2#Name {
+    position: sticky;
+    color: black;
+    text-shadow: 1px 1px 1px white;
+    font-size: 25px;
+    margin: 490px 5px 0px 0px;
+    text-align: right;
+    float: right;
+    
+
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+h3 {
+    font-size: 35px;
+    color: orange;
+    text-shadow: 2px 2px 2px black;
+    margin: 0px 5px 0px;
+}
+
+
+
+button {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 500;
+    font-size: 25px;
+    color: black;
+    border-radius: 55px;
+    border: 1px solid black;
+    background: #fbc089;
+    text-shadow: 1px 1px 1px white;
+    padding: 18px 28px 15px;
+}
+
+button#light {
+    font-size: 20px;
+    padding: 5px 10px 5px;
+    margin: 150px 50px 10px;
+
+}
+button#Rules {
+
+    font-size: 20px;
+    padding: 5px 10px 5px;
+    margin: 5px 50px 10px;
+}
+button#Start {
+    float: right;
+    position: sticky;
+    top:0; right:0;
+    font-size: 30px;
+    padding:  18px 28px 15px;
+    margin: -150px 50px 20px 0;
+}
+
+button:hover {
+    /* Pull the button upwards when hovered */
+   transform: translateY(-0.5em);
+   background: white;
+  }
+  
+  button:active {
+    /* Push the button downwards when pressed */
+   transform: translateY(0.1);
+  }
+
+ul {
+    color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 20px 10px
+}
+
+button.actionFeed, button.actionPlay, button.actionRest{
+    align-items: center;
+    position: relative;
+    top: 30px; left: 600px;
+    margin: 10px 50px 25px;
+    font-size: 30px;
+}
+
+
+button.actionPlay {
+    margin-right: 180px;
+    margin-left: -1px;
+}
+
+button.actionFeed {
+    margin-left: -100px;
+    margin-right: 225px;
+}
+
+
+h3#Age {
+   text-align: center;
+   margin: 125px 200px 10px;
+}
+
+img.babyPet, .GameOver {
+    position: sticky;
+    top: 20px; left: 725px;
+    width: 500px; 
+    height: auto;
+   
+}
+
+
