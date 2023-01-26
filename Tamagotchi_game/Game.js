@@ -229,3 +229,37 @@ console.log(sleep)
 
 
 //________________________________________________________________________________________________________________________________________________________________________________
+
+//Thoughts/Qyuestions
+//How to optimize? 
+//Use different methods such as functions, objects, classes, different data types besides conditional statements
+//HOw to finish game
+//How to remove an image once clicke? 
+//Get more practice using CSS
+//FIgure out why the code sometimes breaks when "going live" 
+
+
+// class Character {
+//     constructor(name, age, boredom, hunger, sleepines){
+//     this.name = name
+//     this.age = age
+//     this.boredom =  document.querySelector("#Boredom")
+//     this.hunger = document.querySelector("#Hunger")
+//     this.sleepines = document.querySelector("#Sleepines")
+//   }
+ 
+//   hungryPhrase (){
+//     console.log("Hey you! Human! FEED ME! I am dying here!")
+//     return this.boredom.value
+//   }
+
+//   boredPhrase (){
+//     console.log("Hey you! Human! I've got to do something. I'm Bored!! ")
+//     return this.hunger.value
+//   }
+
+//   tiredPhrase(){
+//     console.log("Hey you! Human! I need to get some sleep")
+//     return this.sleepines.value
+//   }
+
